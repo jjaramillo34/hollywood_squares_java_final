@@ -12,4 +12,5 @@ Replicate Hollwood Squares game in Java
 ## Technology Use
 Java AWT, Java Swing
 
-![](2022-03-13-12-19-31.png)
+## Image Snippet of Hollywood Squares
+![picture 1](images/465d3a0052c504ab74fdc30402061fd5179374df44315bf201e869ac1d75dab0.png)  
