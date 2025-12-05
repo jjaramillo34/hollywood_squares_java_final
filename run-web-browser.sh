@@ -77,7 +77,7 @@ fi
 
 # Run the game
 cd /app
-java -cp bin HollywoodSquares &
+java -cp "bin:lib/*" HollywoodSquares &
 GAME_PID=$!
 
 echo ""
