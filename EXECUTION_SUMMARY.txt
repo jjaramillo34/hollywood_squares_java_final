@@ -1,0 +1,114 @@
+╔════════════════════════════════════════════════════════════════╗
+║         HOLLYWOOD SQUARES - JAVA 21 EDITION                    ║
+║              ONLINE EXECUTION READY!                           ║
+╚════════════════════════════════════════════════════════════════╝
+
+📋 WHAT'S INSTALLED:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ Java 21.0.9 LTS (latest)
+✅ Game compiled with Java 21 features
+✅ Xvfb (virtual display)
+✅ x11vnc (VNC server)
+✅ noVNC (web-based VNC)
+✅ websockify (web proxy)
+✅ fluxbox (window manager)
+
+🎮 HOW TO PLAY ONLINE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+METHOD 1: Web Browser (⭐ EASIEST!)
+─────────────────────────────────────
+./run-web-browser.sh
+
+Then open: http://localhost:6080/vnc.html?autoconnect=true
+
+Perfect for: Anyone with a web browser!
+
+
+METHOD 2: VNC Client (Best Performance)
+────────────────────────────────────────
+./run-with-vnc.sh
+
+Then connect with VNC client to: localhost:5900
+
+Perfect for: Users who want best performance
+
+
+METHOD 3: Headless (Testing)
+─────────────────────────────
+./run-headless.sh
+
+Perfect for: Automated testing
+
+
+📁 AVAILABLE FILES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Execution Scripts:
+  • run-web-browser.sh    - Web browser access (RECOMMENDED!)
+  • run-with-vnc.sh       - VNC server setup
+  • run-headless.sh       - Headless execution
+  • run.sh                - Direct execution
+  • compile.sh            - Compile script
+
+Documentation:
+  • START_HERE.md                - Quick start guide
+  • ONLINE_EXECUTION_GUIDE.md    - Complete online setup
+  • README.md                    - Full documentation
+  • MODERNIZATION_REPORT.md      - Java 21 upgrade details
+  • JAVA21_FEATURES.md           - Features showcase
+  • QUICK_START.md               - 30-second start
+
+Source Code (Java 21):
+  • src/HollywoodSquares.java    - Main game logic
+  • src/GameBoard.java            - GUI interface
+  • src/Player.java               - Player management
+  • src/QuestionBank.java         - Question database
+  • src/Question.java             - Question record
+  • src/Celebrity.java            - Celebrity enum
+  • src/Difficulty.java           - Difficulty enum
+  • src/Position.java             - Position record
+
+🚀 QUICK START:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Run the web browser version:
+   ./run-web-browser.sh
+
+2. Open in browser:
+   http://localhost:6080/vnc.html?autoconnect=true
+
+3. Play the game!
+
+That's it! 🎉
+
+📊 JAVA 21 FEATURES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ Records (immutable data classes)
+✅ Switch expressions (modern control flow)
+✅ Text blocks (multi-line strings)
+✅ Pattern matching (type-safe checks)
+✅ Enhanced enums (rich behavior)
+✅ Modern collections (List.of())
+✅ ThreadLocalRandom (concurrent-safe)
+✅ var keyword (type inference)
+✅ String formatting (formatted())
+
+💡 PORTS USED:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  5900 - VNC server
+  6080 - Web browser (noVNC)
+
+🎯 GAME RULES:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Select difficulty (Easy/Medium/Hard)
+2. Choose 1 or 2 players
+3. Select a celebrity square
+4. Answer trivia question (Agree/Disagree)
+5. Get 3 in a row or most squares to win round
+6. First to 500 points wins!
+
+╔════════════════════════════════════════════════════════════════╗
+║  🎉 EVERYTHING IS READY - START PLAYING NOW!                   ║
+╚════════════════════════════════════════════════════════════════╝
+
