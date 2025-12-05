@@ -46,7 +46,7 @@ echo "🎮 Starting Hollywood Squares in headless mode..."
 echo "   (Game UI will run in virtual display)"
 echo ""
 cd /app
-java -cp bin HollywoodSquares
+java -cp "bin:lib/*" HollywoodSquares
 
 # Cleanup
 echo ""
