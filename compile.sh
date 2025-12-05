@@ -10,7 +10,7 @@ rm -rf bin
 mkdir -p bin
 
 # Compile all source files
-javac -d bin -source 21 -target 21 src/*.java
+javac -cp "lib/*" -d bin -source 21 -target 21 src/*.java
 
 if [ $? -eq 0 ]; then
     echo ""
