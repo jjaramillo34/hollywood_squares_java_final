@@ -15,7 +15,7 @@ public final class HollywoodSquares {
     private final Player player1;
     private final Player player2;
     private final QuestionBank questionBank;
-    private final GameBoard gameBoard;
+    private final ModernGameBoard gameBoard;
     
     private boolean gameWon;
     private boolean roundWon;
