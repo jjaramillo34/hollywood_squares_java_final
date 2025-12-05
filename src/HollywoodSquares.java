@@ -25,7 +25,7 @@ public final class HollywoodSquares {
 
     public HollywoodSquares() {
         this.board = new int[3][3];
-        this.gameBoard = new GameBoard();
+        this.gameBoard = new ModernGameBoard();
         
         // Initialize board
         initializeBoard();
