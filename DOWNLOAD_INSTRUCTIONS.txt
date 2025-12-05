@@ -1,0 +1,69 @@
+╔════════════════════════════════════════════════════════════════╗
+║     RUN ON YOUR LOCAL COMPUTER (Java 25)                      ║
+╚════════════════════════════════════════════════════════════════╝
+
+🎉 You have Java 25 LTS - Perfect!
+
+Your game is currently on Java 21, but is 100% compatible with Java 25.
+
+📦 TO RUN LOCALLY:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+OPTION 1: Create a Package
+─────────────────────────────
+Run in this container:
+  cd /app
+  zip -r hollywood-squares.zip src/ lib/ bin/ *.jpg *.JPG *.md
+
+Then download hollywood-squares.zip to your computer
+
+
+OPTION 2: Copy Individual Files
+─────────────────────────────────
+Download these from /app/:
+  • src/ folder (all Java files)
+  • lib/ folder (JavaFX libraries)
+  • bin/ folder (compiled classes)
+  • All .jpg and .JPG files (celebrity images, X, O)
+
+
+🚀 TO RUN:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Windows:
+────────
+java --module-path lib --add-modules javafx.controls,javafx.fxml ^
+     -cp "bin;lib\*" HollywoodSquares
+
+macOS/Linux:
+────────────
+java --module-path lib --add-modules javafx.controls,javafx.fxml \
+     -cp "bin:lib/*" HollywoodSquares
+
+
+💡 OR RECOMPILE WITH JAVA 25:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+javac -source 25 -target 25 --module-path lib \
+      --add-modules javafx.controls,javafx.fxml \
+      -cp "lib/*" -d bin src/*.java
+
+Then run as above.
+
+
+✨ BENEFITS OF LOCAL:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Native performance (no VNC)
+✅ Zero latency
+✅ Full screen support
+✅ Better graphics
+✅ Runs on your powerful Java 25!
+
+
+📚 FULL GUIDE: See RUN_LOCALLY.md
+
+╔════════════════════════════════════════════════════════════════╗
+║  Your game will run FASTER on your local Java 25! 🚀          ║
+╚════════════════════════════════════════════════════════════════╝
+
