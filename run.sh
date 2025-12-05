@@ -35,4 +35,4 @@ fi
 echo "Starting Hollywood Squares..."
 echo ""
 cd /app
-java -cp bin HollywoodSquares
+java -cp "bin:lib/*" HollywoodSquares
